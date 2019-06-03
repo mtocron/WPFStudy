@@ -1,0 +1,14 @@
+<p:Person xmlns:p="clr-namespace:CustomXaml;assembly=CustomXaml">
+    <p:Person.FullName>
+        Tanaka Taro
+    </p:Person.FullName>
+    <p:Person.Salary>
+        300000
+    </p:Person.Salary>
+    <p:Person.Father >
+        <p:Person FullName="Tanaka Father"/>
+    </p:Person.Father>
+    <p:Person.Mother>
+        <p:Person FullName="Tanaka Mother"/>
+    </p:Person.Mother>
+</p:Person>
